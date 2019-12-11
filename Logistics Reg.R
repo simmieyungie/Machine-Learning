@@ -62,7 +62,7 @@ tab1 <- table(p2, test$admit)
 
 #Goodness of fit test
 
-
+#This is the second part, where we aim to implement a logreg model on the dividend dataset
 library(tidyverse)
 #laod in dividend dataset
 dividend <- "https://github.com/MGCodesandStats/statsmodels-sklearn-linear-regression/raw/master/logistic%20r/dividendinfo.csv" %>% 
